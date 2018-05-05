@@ -3,7 +3,7 @@
 section .rodata
   L0 db "%d%d",0
   L1 db "%d",0
-  L2 db "%d %d\n",0
+  L2 db "%d %d",0xa,0
 
 section .text
 CEXTERN getchar 
